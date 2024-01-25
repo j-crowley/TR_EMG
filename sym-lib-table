@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "LM2904DR")(type "KiCad")(uri "${KIPRJMOD}/Parts/symbols/LM2904DR/LM2904DR.kicad_sym")(options "")(descr ""))
+  (lib (name "INA115BU")(type "KiCad")(uri "${KIPRJMOD}/Parts/symbols/INA115BU/INA115BU.kicad_sym")(options "")(descr ""))
+)
