@@ -478,7 +478,15 @@
     ],
     [
       "79b04bde-485f-4387-8a17-ac0759b4ec88",
-      "2nd Order Low Pass"
+      "2nd Order LPF (500 Hz Fc)"
+    ],
+    [
+      "10abdc43-1e8b-4600-ab2e-1001f0b52fff",
+      "2nd Order HPF (10 Hz Fc)"
+    ],
+    [
+      "59ee8f59-770d-4fda-92bb-823e819fc8fa",
+      "Instrumentation Amplifier"
     ]
   ],
   "text_variables": {}
