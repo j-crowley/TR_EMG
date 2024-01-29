@@ -562,10 +562,6 @@
     (uuid ff5c0ca8-8337-4de6-bd09-44d0944b709b)
   )
 
-  (text "2nd order high pass" (at 185.42 73.66 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 4bf30ffb-9ff1-49af-976b-c8a438682e9f)
-  )
   (text "2nd order low pass" (at 90.805 71.755 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 5bdc953f-0a04-4192-ba1e-bbae4be234ec)
