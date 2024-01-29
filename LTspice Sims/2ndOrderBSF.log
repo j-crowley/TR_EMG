@@ -1,0 +1,33 @@
+Circuit: * C:\Users\toxic\Desktop\Capstone\TR_EMG\LTspice Sims\2ndOrderBSF.asc
+
+.OP point found by inspection.
+Ignoring empty pin current: Ix(u1:1)
+Ignoring empty pin current: Ix(u1:2)
+Ignoring empty pin current: Ix(u2:1)
+Ignoring empty pin current: Ix(u2:2)
+Ignoring empty pin current: Ix(u3:1)
+Ignoring empty pin current: Ix(u3:2)
+Ignoring empty pin current: Ix(u1:1)
+Ignoring empty pin current: Ix(u1:2)
+Ignoring empty pin current: Ix(u2:1)
+Ignoring empty pin current: Ix(u2:2)
+Ignoring empty pin current: Ix(u3:1)
+Ignoring empty pin current: Ix(u3:2)
+
+Date: Sun Jan 28 20:27:07 2024
+Total elapsed time: 0.073 seconds.
+
+tnom = 27
+temp = 27
+method = trap
+totiter = 0
+traniter = 0
+tranpoints = 0
+accept = 0
+rejected = 0
+matrix size = 8
+fillins = 2
+solver = Normal
+Avg thread counts: 4.0/0.0/0.0/2.3
+Matrix Compiler1:      23 opcodes
+Matrix Compiler2:      47 opcodes
