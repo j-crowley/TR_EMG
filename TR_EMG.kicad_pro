@@ -483,6 +483,10 @@
     [
       "59ee8f59-770d-4fda-92bb-823e819fc8fa",
       "Instrumentation Amplifier"
+    ],
+    [
+      "c018842c-498f-47c8-a015-784e87d3039e",
+      "ADC"
     ]
   ],
   "text_variables": {}

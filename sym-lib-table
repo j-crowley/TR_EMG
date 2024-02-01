@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "LM2904DR")(type "KiCad")(uri "${KIPRJMOD}/Parts/symbols/LM2904DR/LM2904DR.kicad_sym")(options "")(descr ""))
   (lib (name "INA115BU")(type "KiCad")(uri "${KIPRJMOD}/Parts/symbols/INA115BU/INA115BU.kicad_sym")(options "")(descr ""))
+  (lib (name "symbols")(type "KiCad")(uri "${KIPRJMOD}/Parts/symbols/symbols.kicad_sym")(options "")(descr ""))
 )
