@@ -473,16 +473,68 @@
       ""
     ],
     [
-      "7fb3b184-acaf-47e3-98f1-99223ca2f08b",
-      "Notch Filter Circuit (60 Hz)"
+      "a0268632-eb9a-430e-97ab-e20adbf6cd41",
+      "Filter1"
     ],
     [
-      "79b04bde-485f-4387-8a17-ac0759b4ec88",
+      "bcbf3922-6d95-4131-9e90-9856243d7ce3",
+      "Instrumentation Amplifier"
+    ],
+    [
+      "3f67bfb0-bf5c-4aaf-9dac-9acb1a14cf3a",
       "2nd Band Pass Filter (5 - 500 Hz)"
     ],
     [
-      "59ee8f59-770d-4fda-92bb-823e819fc8fa",
+      "2f0a58c0-1c44-4e98-afee-bedece3a8259",
+      "Notch Filter Circuit (60 Hz)"
+    ],
+    [
+      "e619882c-69e2-4357-9513-12f0ec23e799",
+      "Filter2"
+    ],
+    [
+      "bcbf3922-6d95-4131-9e90-9856243d7ce3",
       "Instrumentation Amplifier"
+    ],
+    [
+      "3f67bfb0-bf5c-4aaf-9dac-9acb1a14cf3a",
+      "2nd Band Pass Filter (5 - 500 Hz)"
+    ],
+    [
+      "2f0a58c0-1c44-4e98-afee-bedece3a8259",
+      "Notch Filter Circuit (60 Hz)"
+    ],
+    [
+      "1e802adc-784c-4bfc-ac56-2ca34eafc640",
+      "Filter3"
+    ],
+    [
+      "bcbf3922-6d95-4131-9e90-9856243d7ce3",
+      "Instrumentation Amplifier"
+    ],
+    [
+      "3f67bfb0-bf5c-4aaf-9dac-9acb1a14cf3a",
+      "2nd Band Pass Filter (5 - 500 Hz)"
+    ],
+    [
+      "2f0a58c0-1c44-4e98-afee-bedece3a8259",
+      "Notch Filter Circuit (60 Hz)"
+    ],
+    [
+      "fca8234f-eea0-4615-81d1-2ac2d4337d1e",
+      "Filter4"
+    ],
+    [
+      "bcbf3922-6d95-4131-9e90-9856243d7ce3",
+      "Instrumentation Amplifier"
+    ],
+    [
+      "3f67bfb0-bf5c-4aaf-9dac-9acb1a14cf3a",
+      "2nd Band Pass Filter (5 - 500 Hz)"
+    ],
+    [
+      "2f0a58c0-1c44-4e98-afee-bedece3a8259",
+      "Notch Filter Circuit (60 Hz)"
     ],
     [
       "c018842c-498f-47c8-a015-784e87d3039e",

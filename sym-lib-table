@@ -4,4 +4,6 @@
   (lib (name "INA115BU")(type "KiCad")(uri "${KIPRJMOD}/Parts/symbols/INA115BU/INA115BU.kicad_sym")(options "")(descr ""))
   (lib (name "TP_5012")(type "KiCad")(uri "${KIPRJMOD}/Parts/symbols/TP_5012/5012.kicad_sym")(options "")(descr ""))
   (lib (name "symbols")(type "KiCad")(uri "${KIPRJMOD}/symbols.kicad_sym")(options "")(descr ""))
+  (lib (name "1727230")(type "KiCad")(uri "${KIPRJMOD}/Parts/symbols/1727230/1727230.kicad_sym")(options "")(descr ""))
+  (lib (name "1844236")(type "KiCad")(uri "${KIPRJMOD}/Parts/symbols/1844236/1844236.kicad_sym")(options "")(descr ""))
 )
