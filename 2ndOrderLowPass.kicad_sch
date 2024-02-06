@@ -600,7 +600,10 @@
     (pin "TP" (uuid cbf2bc77-db24-41fc-ab94-9360ec6f040a))
     (instances
       (project "TR_EMG"
-        (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/79b04bde-485f-4387-8a17-ac0759b4ec88"
+        (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/e619882c-69e2-4357-9513-12f0ec23e799/3f67bfb0-bf5c-4aaf-9dac-9acb1a14cf3a"
+          (reference "TP3") (unit 1)
+        )
+        (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/a0268632-eb9a-430e-97ab-e20adbf6cd41/3f67bfb0-bf5c-4aaf-9dac-9acb1a14cf3a"
           (reference "TP3") (unit 1)
         )
       )
@@ -626,7 +629,10 @@
     (pin "1" (uuid 0e870b99-ca73-4126-ba4a-a711fb4bbe07))
     (instances
       (project "TR_EMG"
-        (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/79b04bde-485f-4387-8a17-ac0759b4ec88"
+        (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/e619882c-69e2-4357-9513-12f0ec23e799/3f67bfb0-bf5c-4aaf-9dac-9acb1a14cf3a"
+          (reference "R9") (unit 1)
+        )
+        (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/a0268632-eb9a-430e-97ab-e20adbf6cd41/3f67bfb0-bf5c-4aaf-9dac-9acb1a14cf3a"
           (reference "R9") (unit 1)
         )
       )
@@ -652,7 +658,10 @@
     (pin "2" (uuid 328ee10e-a55d-448f-9927-6cf498e00874))
     (instances
       (project "TR_EMG"
-        (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/79b04bde-485f-4387-8a17-ac0759b4ec88"
+        (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/e619882c-69e2-4357-9513-12f0ec23e799/3f67bfb0-bf5c-4aaf-9dac-9acb1a14cf3a"
+          (reference "R12") (unit 1)
+        )
+        (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/a0268632-eb9a-430e-97ab-e20adbf6cd41/3f67bfb0-bf5c-4aaf-9dac-9acb1a14cf3a"
           (reference "R12") (unit 1)
         )
       )
@@ -684,7 +693,10 @@
     (pin "2" (uuid 2441d4ec-2881-44b1-ab1a-65541fc661d4))
     (instances
       (project "TR_EMG"
-        (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/79b04bde-485f-4387-8a17-ac0759b4ec88"
+        (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/e619882c-69e2-4357-9513-12f0ec23e799/3f67bfb0-bf5c-4aaf-9dac-9acb1a14cf3a"
+          (reference "U5") (unit 1)
+        )
+        (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/a0268632-eb9a-430e-97ab-e20adbf6cd41/3f67bfb0-bf5c-4aaf-9dac-9acb1a14cf3a"
           (reference "U5") (unit 1)
         )
       )
@@ -710,7 +722,10 @@
     (pin "2" (uuid 5918ff79-5fa1-4bef-b77a-33dd834f161c))
     (instances
       (project "TR_EMG"
-        (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/79b04bde-485f-4387-8a17-ac0759b4ec88"
+        (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/e619882c-69e2-4357-9513-12f0ec23e799/3f67bfb0-bf5c-4aaf-9dac-9acb1a14cf3a"
+          (reference "R6") (unit 1)
+        )
+        (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/a0268632-eb9a-430e-97ab-e20adbf6cd41/3f67bfb0-bf5c-4aaf-9dac-9acb1a14cf3a"
           (reference "R6") (unit 1)
         )
       )
@@ -736,7 +751,10 @@
     (pin "1" (uuid d06d0003-ba4e-4346-92af-2826739f5282))
     (instances
       (project "TR_EMG"
-        (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/79b04bde-485f-4387-8a17-ac0759b4ec88"
+        (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/e619882c-69e2-4357-9513-12f0ec23e799/3f67bfb0-bf5c-4aaf-9dac-9acb1a14cf3a"
+          (reference "C3") (unit 1)
+        )
+        (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/a0268632-eb9a-430e-97ab-e20adbf6cd41/3f67bfb0-bf5c-4aaf-9dac-9acb1a14cf3a"
           (reference "C3") (unit 1)
         )
       )
@@ -762,7 +780,10 @@
     (pin "2" (uuid 63121860-97ad-4f35-8949-1165ac4e5860))
     (instances
       (project "TR_EMG"
-        (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/79b04bde-485f-4387-8a17-ac0759b4ec88"
+        (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/e619882c-69e2-4357-9513-12f0ec23e799/3f67bfb0-bf5c-4aaf-9dac-9acb1a14cf3a"
+          (reference "C5") (unit 1)
+        )
+        (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/a0268632-eb9a-430e-97ab-e20adbf6cd41/3f67bfb0-bf5c-4aaf-9dac-9acb1a14cf3a"
           (reference "C5") (unit 1)
         )
       )
@@ -788,7 +809,10 @@
     (pin "2" (uuid 595caea7-39bb-44b3-bb26-9e395ec513ff))
     (instances
       (project "TR_EMG"
-        (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/79b04bde-485f-4387-8a17-ac0759b4ec88"
+        (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/e619882c-69e2-4357-9513-12f0ec23e799/3f67bfb0-bf5c-4aaf-9dac-9acb1a14cf3a"
+          (reference "R7") (unit 1)
+        )
+        (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/a0268632-eb9a-430e-97ab-e20adbf6cd41/3f67bfb0-bf5c-4aaf-9dac-9acb1a14cf3a"
           (reference "R7") (unit 1)
         )
       )
@@ -814,7 +838,10 @@
     (pin "1" (uuid 2cceeda8-b1aa-4336-96d1-82b5430013cd))
     (instances
       (project "TR_EMG"
-        (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/79b04bde-485f-4387-8a17-ac0759b4ec88"
+        (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/e619882c-69e2-4357-9513-12f0ec23e799/3f67bfb0-bf5c-4aaf-9dac-9acb1a14cf3a"
+          (reference "C6") (unit 1)
+        )
+        (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/a0268632-eb9a-430e-97ab-e20adbf6cd41/3f67bfb0-bf5c-4aaf-9dac-9acb1a14cf3a"
           (reference "C6") (unit 1)
         )
       )
@@ -839,7 +866,10 @@
     (pin "1" (uuid 9a46eae8-6157-4d2f-a52a-81984aa514b6))
     (instances
       (project "TR_EMG"
-        (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/79b04bde-485f-4387-8a17-ac0759b4ec88"
+        (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/e619882c-69e2-4357-9513-12f0ec23e799/3f67bfb0-bf5c-4aaf-9dac-9acb1a14cf3a"
+          (reference "#PWR01") (unit 1)
+        )
+        (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/a0268632-eb9a-430e-97ab-e20adbf6cd41/3f67bfb0-bf5c-4aaf-9dac-9acb1a14cf3a"
           (reference "#PWR01") (unit 1)
         )
       )
@@ -865,7 +895,10 @@
     (pin "2" (uuid 257f3ac0-8fab-49f9-ac47-d24f3aa4b740))
     (instances
       (project "TR_EMG"
-        (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/79b04bde-485f-4387-8a17-ac0759b4ec88"
+        (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/e619882c-69e2-4357-9513-12f0ec23e799/3f67bfb0-bf5c-4aaf-9dac-9acb1a14cf3a"
+          (reference "R11") (unit 1)
+        )
+        (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/a0268632-eb9a-430e-97ab-e20adbf6cd41/3f67bfb0-bf5c-4aaf-9dac-9acb1a14cf3a"
           (reference "R11") (unit 1)
         )
       )
@@ -890,7 +923,10 @@
     (pin "1" (uuid 366a026a-362f-449c-b51c-794ae36003d6))
     (instances
       (project "TR_EMG"
-        (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/79b04bde-485f-4387-8a17-ac0759b4ec88"
+        (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/e619882c-69e2-4357-9513-12f0ec23e799/3f67bfb0-bf5c-4aaf-9dac-9acb1a14cf3a"
+          (reference "#PWR03") (unit 1)
+        )
+        (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/a0268632-eb9a-430e-97ab-e20adbf6cd41/3f67bfb0-bf5c-4aaf-9dac-9acb1a14cf3a"
           (reference "#PWR03") (unit 1)
         )
       )
@@ -916,7 +952,10 @@
     (pin "2" (uuid 0fae9766-b7d0-4a1e-b001-58e0a523aecd))
     (instances
       (project "TR_EMG"
-        (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/79b04bde-485f-4387-8a17-ac0759b4ec88"
+        (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/e619882c-69e2-4357-9513-12f0ec23e799/3f67bfb0-bf5c-4aaf-9dac-9acb1a14cf3a"
+          (reference "R10") (unit 1)
+        )
+        (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/a0268632-eb9a-430e-97ab-e20adbf6cd41/3f67bfb0-bf5c-4aaf-9dac-9acb1a14cf3a"
           (reference "R10") (unit 1)
         )
       )
@@ -942,7 +981,10 @@
     (pin "1" (uuid 6f5f15ba-b07b-424a-9ccb-d1a8320f2002))
     (instances
       (project "TR_EMG"
-        (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/79b04bde-485f-4387-8a17-ac0759b4ec88"
+        (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/e619882c-69e2-4357-9513-12f0ec23e799/3f67bfb0-bf5c-4aaf-9dac-9acb1a14cf3a"
+          (reference "C4") (unit 1)
+        )
+        (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/a0268632-eb9a-430e-97ab-e20adbf6cd41/3f67bfb0-bf5c-4aaf-9dac-9acb1a14cf3a"
           (reference "C4") (unit 1)
         )
       )
@@ -982,7 +1024,10 @@
     (pin "TP" (uuid 7f04a091-cee5-444e-8813-9643427261be))
     (instances
       (project "TR_EMG"
-        (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/79b04bde-485f-4387-8a17-ac0759b4ec88"
+        (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/e619882c-69e2-4357-9513-12f0ec23e799/3f67bfb0-bf5c-4aaf-9dac-9acb1a14cf3a"
+          (reference "TP2") (unit 1)
+        )
+        (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/a0268632-eb9a-430e-97ab-e20adbf6cd41/3f67bfb0-bf5c-4aaf-9dac-9acb1a14cf3a"
           (reference "TP2") (unit 1)
         )
       )
