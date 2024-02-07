@@ -317,13 +317,13 @@
   (symbol (lib_id "Device:R_US") (at 107.95 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 49ad16ad-12de-455c-8c01-d16aa22441a1)
-    (property "Reference" "R5" (at 110.49 78.74 0)
+    (property "Reference" "R201" (at 110.49 78.74 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100" (at 110.49 81.28 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 108.966 80.264 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 108.966 80.264 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 107.95 80.01 0)
@@ -334,16 +334,16 @@
     (instances
       (project "TR_EMG"
         (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/e619882c-69e2-4357-9513-12f0ec23e799/bcbf3922-6d95-4131-9e90-9856243d7ce3"
-          (reference "R5") (unit 1)
+          (reference "R201") (unit 1)
         )
         (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/a0268632-eb9a-430e-97ab-e20adbf6cd41/bcbf3922-6d95-4131-9e90-9856243d7ce3"
-          (reference "R5") (unit 1)
+          (reference "R101") (unit 1)
         )
         (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/1e802adc-784c-4bfc-ac56-2ca34eafc640/bcbf3922-6d95-4131-9e90-9856243d7ce3"
-          (reference "R5") (unit 1)
+          (reference "R301") (unit 1)
         )
         (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/fca8234f-eea0-4615-81d1-2ac2d4337d1e/bcbf3922-6d95-4131-9e90-9856243d7ce3"
-          (reference "R5") (unit 1)
+          (reference "R401") (unit 1)
         )
       )
     )
@@ -352,13 +352,13 @@
   (symbol (lib_id "TP_5012:5012") (at 163.83 67.31 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5bca5998-28d8-4c47-ac12-2899d54247e1)
-    (property "Reference" "TP1" (at 166.37 66.04 90)
+    (property "Reference" "2TP1" (at 166.37 66.04 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "5012" (at 166.37 68.58 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "5012:TP_5012" (at 163.83 67.31 0)
+    (property "Footprint" "footprints:TP_5012" (at 163.83 67.31 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
     (property "Datasheet" "" (at 163.83 67.31 0)
@@ -383,16 +383,16 @@
     (instances
       (project "TR_EMG"
         (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/e619882c-69e2-4357-9513-12f0ec23e799/bcbf3922-6d95-4131-9e90-9856243d7ce3"
-          (reference "TP1") (unit 1)
+          (reference "2TP1") (unit 1)
         )
         (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/a0268632-eb9a-430e-97ab-e20adbf6cd41/bcbf3922-6d95-4131-9e90-9856243d7ce3"
-          (reference "TP1") (unit 1)
+          (reference "1TP1") (unit 1)
         )
         (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/1e802adc-784c-4bfc-ac56-2ca34eafc640/bcbf3922-6d95-4131-9e90-9856243d7ce3"
-          (reference "TP1") (unit 1)
+          (reference "3TP1") (unit 1)
         )
         (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/fca8234f-eea0-4615-81d1-2ac2d4337d1e/bcbf3922-6d95-4131-9e90-9856243d7ce3"
-          (reference "TP1") (unit 1)
+          (reference "4TP1") (unit 1)
         )
       )
     )
@@ -401,13 +401,13 @@
   (symbol (lib_id "Digikey:INA115BU") (at 137.16 82.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid db8c690e-8ddb-42d2-829a-b6815516a207)
-    (property "Reference" "U1" (at 137.16 59.69 0)
+    (property "Reference" "U101" (at 137.16 59.69 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "INA115BU" (at 137.16 62.23 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "INA115BU:SOIC127P1030X265-16N" (at 137.16 82.55 0)
+    (property "Footprint" "footprints:SOIC127P1030X265-16N" (at 137.16 82.55 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
     (property "Datasheet" "" (at 137.16 82.55 0)
@@ -429,16 +429,16 @@
     (instances
       (project "TR_EMG"
         (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/a0268632-eb9a-430e-97ab-e20adbf6cd41/bcbf3922-6d95-4131-9e90-9856243d7ce3"
-          (reference "U1") (unit 1)
+          (reference "U101") (unit 1)
         )
         (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/fca8234f-eea0-4615-81d1-2ac2d4337d1e/bcbf3922-6d95-4131-9e90-9856243d7ce3"
-          (reference "U1") (unit 1)
+          (reference "U401") (unit 1)
         )
         (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/1e802adc-784c-4bfc-ac56-2ca34eafc640/bcbf3922-6d95-4131-9e90-9856243d7ce3"
-          (reference "U1") (unit 1)
+          (reference "U301") (unit 1)
         )
         (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/e619882c-69e2-4357-9513-12f0ec23e799/bcbf3922-6d95-4131-9e90-9856243d7ce3"
-          (reference "U1") (unit 1)
+          (reference "U201") (unit 1)
         )
       )
     )

@@ -570,13 +570,13 @@
   (symbol (lib_id "TP_5012:5012") (at 207.01 80.01 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 05299aa1-cced-49d8-9d50-9f62d0df78b1)
-    (property "Reference" "TP3" (at 209.55 78.74 90)
+    (property "Reference" "2TP3" (at 209.55 78.74 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "5012" (at 209.55 81.28 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "5012:TP_5012" (at 207.01 80.01 0)
+    (property "Footprint" "footprints:TP_5012" (at 207.01 80.01 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
     (property "Datasheet" "" (at 207.01 80.01 0)
@@ -601,16 +601,16 @@
     (instances
       (project "TR_EMG"
         (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/e619882c-69e2-4357-9513-12f0ec23e799/3f67bfb0-bf5c-4aaf-9dac-9acb1a14cf3a"
-          (reference "TP3") (unit 1)
+          (reference "2TP3") (unit 1)
         )
         (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/a0268632-eb9a-430e-97ab-e20adbf6cd41/3f67bfb0-bf5c-4aaf-9dac-9acb1a14cf3a"
-          (reference "TP3") (unit 1)
+          (reference "1TP3") (unit 1)
         )
         (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/1e802adc-784c-4bfc-ac56-2ca34eafc640/3f67bfb0-bf5c-4aaf-9dac-9acb1a14cf3a"
-          (reference "TP3") (unit 1)
+          (reference "3TP3") (unit 1)
         )
         (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/fca8234f-eea0-4615-81d1-2ac2d4337d1e/3f67bfb0-bf5c-4aaf-9dac-9acb1a14cf3a"
-          (reference "TP3") (unit 1)
+          (reference "4TP3") (unit 1)
         )
       )
     )
@@ -619,13 +619,13 @@
   (symbol (lib_id "Device:R_US") (at 149.86 82.55 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1c17f32d-d988-4546-9676-3f0ce6d10872)
-    (property "Reference" "R9" (at 149.86 76.2 90)
+    (property "Reference" "R221" (at 149.86 76.2 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "3.3k" (at 149.86 78.74 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 149.606 83.566 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 149.606 83.566 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 149.86 82.55 0)
@@ -636,16 +636,16 @@
     (instances
       (project "TR_EMG"
         (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/e619882c-69e2-4357-9513-12f0ec23e799/3f67bfb0-bf5c-4aaf-9dac-9acb1a14cf3a"
-          (reference "R9") (unit 1)
+          (reference "R221") (unit 1)
         )
         (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/a0268632-eb9a-430e-97ab-e20adbf6cd41/3f67bfb0-bf5c-4aaf-9dac-9acb1a14cf3a"
-          (reference "R9") (unit 1)
+          (reference "R121") (unit 1)
         )
         (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/1e802adc-784c-4bfc-ac56-2ca34eafc640/3f67bfb0-bf5c-4aaf-9dac-9acb1a14cf3a"
-          (reference "R9") (unit 1)
+          (reference "R321") (unit 1)
         )
         (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/fca8234f-eea0-4615-81d1-2ac2d4337d1e/3f67bfb0-bf5c-4aaf-9dac-9acb1a14cf3a"
-          (reference "R9") (unit 1)
+          (reference "R421") (unit 1)
         )
       )
     )
@@ -654,13 +654,13 @@
   (symbol (lib_id "Device:R_US") (at 196.85 105.41 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 33cb74c3-416a-47c2-b484-d9c882e01475)
-    (property "Reference" "R12" (at 196.85 107.95 90)
+    (property "Reference" "R231" (at 196.85 107.95 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 196.85 102.87 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 197.104 104.394 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 197.104 104.394 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 196.85 105.41 0)
@@ -671,16 +671,16 @@
     (instances
       (project "TR_EMG"
         (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/e619882c-69e2-4357-9513-12f0ec23e799/3f67bfb0-bf5c-4aaf-9dac-9acb1a14cf3a"
-          (reference "R12") (unit 1)
+          (reference "R231") (unit 1)
         )
         (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/a0268632-eb9a-430e-97ab-e20adbf6cd41/3f67bfb0-bf5c-4aaf-9dac-9acb1a14cf3a"
-          (reference "R12") (unit 1)
+          (reference "R131") (unit 1)
         )
         (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/1e802adc-784c-4bfc-ac56-2ca34eafc640/3f67bfb0-bf5c-4aaf-9dac-9acb1a14cf3a"
-          (reference "R12") (unit 1)
+          (reference "R331") (unit 1)
         )
         (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/fca8234f-eea0-4615-81d1-2ac2d4337d1e/3f67bfb0-bf5c-4aaf-9dac-9acb1a14cf3a"
-          (reference "R12") (unit 1)
+          (reference "R431") (unit 1)
         )
       )
     )
@@ -689,13 +689,13 @@
   (symbol (lib_id "symbols:LT1169CS8-PBF") (at 118.11 100.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 384d2764-1f76-4136-8be2-0662b5dfa86a)
-    (property "Reference" "U5" (at 138.43 90.17 0)
+    (property "Reference" "U211" (at 138.43 90.17 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "LT1169CS8-PBF" (at 138.43 92.71 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Footprint" "SO-8_S_LIT" (at 118.11 100.33 0)
+    (property "Footprint" "footprints:SOIC127P599X175-8N" (at 118.11 100.33 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "LT1169CS8-PBF" (at 118.11 100.33 0)
@@ -712,16 +712,16 @@
     (instances
       (project "TR_EMG"
         (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/e619882c-69e2-4357-9513-12f0ec23e799/3f67bfb0-bf5c-4aaf-9dac-9acb1a14cf3a"
-          (reference "U5") (unit 1)
+          (reference "U211") (unit 1)
         )
         (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/a0268632-eb9a-430e-97ab-e20adbf6cd41/3f67bfb0-bf5c-4aaf-9dac-9acb1a14cf3a"
-          (reference "U5") (unit 1)
+          (reference "U111") (unit 1)
         )
         (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/1e802adc-784c-4bfc-ac56-2ca34eafc640/3f67bfb0-bf5c-4aaf-9dac-9acb1a14cf3a"
-          (reference "U5") (unit 1)
+          (reference "U311") (unit 1)
         )
         (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/fca8234f-eea0-4615-81d1-2ac2d4337d1e/3f67bfb0-bf5c-4aaf-9dac-9acb1a14cf3a"
-          (reference "U5") (unit 1)
+          (reference "U411") (unit 1)
         )
       )
     )
@@ -730,13 +730,13 @@
   (symbol (lib_id "Device:R_US") (at 90.17 87.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 43e381c0-9eaf-4a55-8dfd-c9467f2f7316)
-    (property "Reference" "R6" (at 92.71 86.36 0)
+    (property "Reference" "R212" (at 92.71 86.36 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "330k" (at 92.71 88.9 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 91.186 87.884 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 91.186 87.884 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 90.17 87.63 0)
@@ -747,16 +747,16 @@
     (instances
       (project "TR_EMG"
         (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/e619882c-69e2-4357-9513-12f0ec23e799/3f67bfb0-bf5c-4aaf-9dac-9acb1a14cf3a"
-          (reference "R6") (unit 1)
+          (reference "R212") (unit 1)
         )
         (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/a0268632-eb9a-430e-97ab-e20adbf6cd41/3f67bfb0-bf5c-4aaf-9dac-9acb1a14cf3a"
-          (reference "R6") (unit 1)
+          (reference "R112") (unit 1)
         )
         (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/1e802adc-784c-4bfc-ac56-2ca34eafc640/3f67bfb0-bf5c-4aaf-9dac-9acb1a14cf3a"
-          (reference "R6") (unit 1)
+          (reference "R312") (unit 1)
         )
         (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/fca8234f-eea0-4615-81d1-2ac2d4337d1e/3f67bfb0-bf5c-4aaf-9dac-9acb1a14cf3a"
-          (reference "R6") (unit 1)
+          (reference "R412") (unit 1)
         )
       )
     )
@@ -765,13 +765,13 @@
   (symbol (lib_id "Device:C") (at 67.31 80.01 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 535ad318-95e8-4443-96fb-39612a621c2a)
-    (property "Reference" "C3" (at 67.31 72.39 90)
+    (property "Reference" "C201" (at 67.31 72.39 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "0.1uF" (at 67.31 74.93 90)
+    (property "Value" "0.1u" (at 67.31 74.93 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 71.12 79.0448 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 71.12 79.0448 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 67.31 80.01 0)
@@ -782,16 +782,16 @@
     (instances
       (project "TR_EMG"
         (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/e619882c-69e2-4357-9513-12f0ec23e799/3f67bfb0-bf5c-4aaf-9dac-9acb1a14cf3a"
-          (reference "C3") (unit 1)
+          (reference "C201") (unit 1)
         )
         (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/a0268632-eb9a-430e-97ab-e20adbf6cd41/3f67bfb0-bf5c-4aaf-9dac-9acb1a14cf3a"
-          (reference "C3") (unit 1)
+          (reference "C101") (unit 1)
         )
         (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/1e802adc-784c-4bfc-ac56-2ca34eafc640/3f67bfb0-bf5c-4aaf-9dac-9acb1a14cf3a"
-          (reference "C3") (unit 1)
+          (reference "C301") (unit 1)
         )
         (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/fca8234f-eea0-4615-81d1-2ac2d4337d1e/3f67bfb0-bf5c-4aaf-9dac-9acb1a14cf3a"
-          (reference "C3") (unit 1)
+          (reference "C401") (unit 1)
         )
       )
     )
@@ -800,13 +800,13 @@
   (symbol (lib_id "Device:C") (at 172.72 115.57 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 61c5220e-ec23-4bc0-aed1-9ea624c9152f)
-    (property "Reference" "C5" (at 176.53 114.3 0)
+    (property "Reference" "C204" (at 176.53 114.3 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "0.1uF" (at 176.53 116.84 0)
+    (property "Value" "0.1u" (at 176.53 116.84 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 173.6852 119.38 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 173.6852 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 172.72 115.57 0)
@@ -817,16 +817,16 @@
     (instances
       (project "TR_EMG"
         (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/e619882c-69e2-4357-9513-12f0ec23e799/3f67bfb0-bf5c-4aaf-9dac-9acb1a14cf3a"
-          (reference "C5") (unit 1)
+          (reference "C204") (unit 1)
         )
         (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/a0268632-eb9a-430e-97ab-e20adbf6cd41/3f67bfb0-bf5c-4aaf-9dac-9acb1a14cf3a"
-          (reference "C5") (unit 1)
+          (reference "C104") (unit 1)
         )
         (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/1e802adc-784c-4bfc-ac56-2ca34eafc640/3f67bfb0-bf5c-4aaf-9dac-9acb1a14cf3a"
-          (reference "C5") (unit 1)
+          (reference "C304") (unit 1)
         )
         (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/fca8234f-eea0-4615-81d1-2ac2d4337d1e/3f67bfb0-bf5c-4aaf-9dac-9acb1a14cf3a"
-          (reference "C5") (unit 1)
+          (reference "C404") (unit 1)
         )
       )
     )
@@ -835,13 +835,13 @@
   (symbol (lib_id "Device:R_US") (at 95.25 63.5 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6411f4d4-3baa-4ead-a77e-b6fcfd206d29)
-    (property "Reference" "R7" (at 95.25 57.15 90)
+    (property "Reference" "R211" (at 95.25 57.15 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "330k" (at 95.25 59.69 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 95.504 62.484 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 95.504 62.484 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 95.25 63.5 0)
@@ -852,16 +852,16 @@
     (instances
       (project "TR_EMG"
         (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/e619882c-69e2-4357-9513-12f0ec23e799/3f67bfb0-bf5c-4aaf-9dac-9acb1a14cf3a"
-          (reference "R7") (unit 1)
+          (reference "R211") (unit 1)
         )
         (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/a0268632-eb9a-430e-97ab-e20adbf6cd41/3f67bfb0-bf5c-4aaf-9dac-9acb1a14cf3a"
-          (reference "R7") (unit 1)
+          (reference "R111") (unit 1)
         )
         (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/1e802adc-784c-4bfc-ac56-2ca34eafc640/3f67bfb0-bf5c-4aaf-9dac-9acb1a14cf3a"
-          (reference "R7") (unit 1)
+          (reference "R311") (unit 1)
         )
         (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/fca8234f-eea0-4615-81d1-2ac2d4337d1e/3f67bfb0-bf5c-4aaf-9dac-9acb1a14cf3a"
-          (reference "R7") (unit 1)
+          (reference "R411") (unit 1)
         )
       )
     )
@@ -870,13 +870,13 @@
   (symbol (lib_id "Device:C") (at 180.34 67.31 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 840e26cc-d0a9-4d8b-a8d7-905cfb655977)
-    (property "Reference" "C6" (at 180.34 59.69 90)
+    (property "Reference" "C203" (at 180.34 59.69 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "0.1uF" (at 180.34 62.23 90)
+    (property "Value" "0.1u" (at 180.34 62.23 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 184.15 66.3448 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 184.15 66.3448 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 180.34 67.31 0)
@@ -887,16 +887,16 @@
     (instances
       (project "TR_EMG"
         (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/e619882c-69e2-4357-9513-12f0ec23e799/3f67bfb0-bf5c-4aaf-9dac-9acb1a14cf3a"
-          (reference "C6") (unit 1)
+          (reference "C203") (unit 1)
         )
         (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/a0268632-eb9a-430e-97ab-e20adbf6cd41/3f67bfb0-bf5c-4aaf-9dac-9acb1a14cf3a"
-          (reference "C6") (unit 1)
+          (reference "C103") (unit 1)
         )
         (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/1e802adc-784c-4bfc-ac56-2ca34eafc640/3f67bfb0-bf5c-4aaf-9dac-9acb1a14cf3a"
-          (reference "C6") (unit 1)
+          (reference "C303") (unit 1)
         )
         (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/fca8234f-eea0-4615-81d1-2ac2d4337d1e/3f67bfb0-bf5c-4aaf-9dac-9acb1a14cf3a"
-          (reference "C6") (unit 1)
+          (reference "C403") (unit 1)
         )
       )
     )
@@ -905,7 +905,7 @@
   (symbol (lib_id "power:GNDREF") (at 90.17 113.03 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8f076151-0de5-43aa-b4db-f6f1124e57b5)
-    (property "Reference" "#PWR01" (at 90.17 119.38 0)
+    (property "Reference" "#PWR0102" (at 90.17 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDREF" (at 90.17 118.11 0)
@@ -921,16 +921,16 @@
     (instances
       (project "TR_EMG"
         (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/e619882c-69e2-4357-9513-12f0ec23e799/3f67bfb0-bf5c-4aaf-9dac-9acb1a14cf3a"
-          (reference "#PWR01") (unit 1)
+          (reference "#PWR0102") (unit 1)
         )
         (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/a0268632-eb9a-430e-97ab-e20adbf6cd41/3f67bfb0-bf5c-4aaf-9dac-9acb1a14cf3a"
           (reference "#PWR01") (unit 1)
         )
         (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/1e802adc-784c-4bfc-ac56-2ca34eafc640/3f67bfb0-bf5c-4aaf-9dac-9acb1a14cf3a"
-          (reference "#PWR01") (unit 1)
+          (reference "#PWR0105") (unit 1)
         )
         (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/fca8234f-eea0-4615-81d1-2ac2d4337d1e/3f67bfb0-bf5c-4aaf-9dac-9acb1a14cf3a"
-          (reference "#PWR01") (unit 1)
+          (reference "#PWR0108") (unit 1)
         )
       )
     )
@@ -939,13 +939,13 @@
   (symbol (lib_id "Device:R_US") (at 187.96 119.38 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a9919c3c-53dc-4dab-b17a-c06e27711315)
-    (property "Reference" "R11" (at 190.5 118.11 0)
+    (property "Reference" "R232" (at 190.5 118.11 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (at 190.5 120.65 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 188.976 119.634 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 188.976 119.634 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 187.96 119.38 0)
@@ -956,16 +956,16 @@
     (instances
       (project "TR_EMG"
         (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/e619882c-69e2-4357-9513-12f0ec23e799/3f67bfb0-bf5c-4aaf-9dac-9acb1a14cf3a"
-          (reference "R11") (unit 1)
+          (reference "R232") (unit 1)
         )
         (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/a0268632-eb9a-430e-97ab-e20adbf6cd41/3f67bfb0-bf5c-4aaf-9dac-9acb1a14cf3a"
-          (reference "R11") (unit 1)
+          (reference "R132") (unit 1)
         )
         (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/1e802adc-784c-4bfc-ac56-2ca34eafc640/3f67bfb0-bf5c-4aaf-9dac-9acb1a14cf3a"
-          (reference "R11") (unit 1)
+          (reference "R332") (unit 1)
         )
         (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/fca8234f-eea0-4615-81d1-2ac2d4337d1e/3f67bfb0-bf5c-4aaf-9dac-9acb1a14cf3a"
-          (reference "R11") (unit 1)
+          (reference "R432") (unit 1)
         )
       )
     )
@@ -974,7 +974,7 @@
   (symbol (lib_id "power:GNDREF") (at 180.34 124.46 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b020ebc5-070b-45e1-9cde-eccedbdc34ae)
-    (property "Reference" "#PWR03" (at 180.34 130.81 0)
+    (property "Reference" "#PWR0101" (at 180.34 130.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDREF" (at 180.34 129.54 0)
@@ -990,16 +990,16 @@
     (instances
       (project "TR_EMG"
         (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/e619882c-69e2-4357-9513-12f0ec23e799/3f67bfb0-bf5c-4aaf-9dac-9acb1a14cf3a"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR0101") (unit 1)
         )
         (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/a0268632-eb9a-430e-97ab-e20adbf6cd41/3f67bfb0-bf5c-4aaf-9dac-9acb1a14cf3a"
           (reference "#PWR03") (unit 1)
         )
         (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/1e802adc-784c-4bfc-ac56-2ca34eafc640/3f67bfb0-bf5c-4aaf-9dac-9acb1a14cf3a"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR0104") (unit 1)
         )
         (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/fca8234f-eea0-4615-81d1-2ac2d4337d1e/3f67bfb0-bf5c-4aaf-9dac-9acb1a14cf3a"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR0107") (unit 1)
         )
       )
     )
@@ -1008,13 +1008,13 @@
   (symbol (lib_id "Device:R_US") (at 165.1 82.55 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid da114263-7788-493c-8001-a69ef2b974e3)
-    (property "Reference" "R10" (at 165.1 76.2 90)
+    (property "Reference" "R222" (at 165.1 76.2 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "3.3k" (at 165.1 78.74 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 165.354 81.534 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 165.354 81.534 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 165.1 82.55 0)
@@ -1025,16 +1025,16 @@
     (instances
       (project "TR_EMG"
         (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/e619882c-69e2-4357-9513-12f0ec23e799/3f67bfb0-bf5c-4aaf-9dac-9acb1a14cf3a"
-          (reference "R10") (unit 1)
+          (reference "R222") (unit 1)
         )
         (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/a0268632-eb9a-430e-97ab-e20adbf6cd41/3f67bfb0-bf5c-4aaf-9dac-9acb1a14cf3a"
-          (reference "R10") (unit 1)
+          (reference "R122") (unit 1)
         )
         (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/1e802adc-784c-4bfc-ac56-2ca34eafc640/3f67bfb0-bf5c-4aaf-9dac-9acb1a14cf3a"
-          (reference "R10") (unit 1)
+          (reference "R322") (unit 1)
         )
         (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/fca8234f-eea0-4615-81d1-2ac2d4337d1e/3f67bfb0-bf5c-4aaf-9dac-9acb1a14cf3a"
-          (reference "R10") (unit 1)
+          (reference "R422") (unit 1)
         )
       )
     )
@@ -1043,13 +1043,13 @@
   (symbol (lib_id "Device:C") (at 80.01 80.01 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fae26bc5-a33d-4c6c-8afe-48c1ffc6b180)
-    (property "Reference" "C4" (at 80.01 72.39 90)
+    (property "Reference" "C202" (at 80.01 72.39 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "0.1uF" (at 80.01 74.93 90)
+    (property "Value" "0.1u" (at 80.01 74.93 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 83.82 79.0448 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 83.82 79.0448 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 80.01 80.01 0)
@@ -1060,16 +1060,16 @@
     (instances
       (project "TR_EMG"
         (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/e619882c-69e2-4357-9513-12f0ec23e799/3f67bfb0-bf5c-4aaf-9dac-9acb1a14cf3a"
-          (reference "C4") (unit 1)
+          (reference "C202") (unit 1)
         )
         (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/a0268632-eb9a-430e-97ab-e20adbf6cd41/3f67bfb0-bf5c-4aaf-9dac-9acb1a14cf3a"
-          (reference "C4") (unit 1)
+          (reference "C102") (unit 1)
         )
         (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/1e802adc-784c-4bfc-ac56-2ca34eafc640/3f67bfb0-bf5c-4aaf-9dac-9acb1a14cf3a"
-          (reference "C4") (unit 1)
+          (reference "C302") (unit 1)
         )
         (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/fca8234f-eea0-4615-81d1-2ac2d4337d1e/3f67bfb0-bf5c-4aaf-9dac-9acb1a14cf3a"
-          (reference "C4") (unit 1)
+          (reference "C402") (unit 1)
         )
       )
     )
@@ -1078,13 +1078,13 @@
   (symbol (lib_id "TP_5012:5012") (at 129.54 77.47 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fd9d0023-71ed-41f5-818e-d5be9199348e)
-    (property "Reference" "TP2" (at 132.08 76.2 90)
+    (property "Reference" "2TP2" (at 132.08 76.2 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "5012" (at 132.08 78.74 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "5012:TP_5012" (at 129.54 77.47 0)
+    (property "Footprint" "footprints:TP_5012" (at 129.54 77.47 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
     (property "Datasheet" "" (at 129.54 77.47 0)
@@ -1109,16 +1109,16 @@
     (instances
       (project "TR_EMG"
         (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/e619882c-69e2-4357-9513-12f0ec23e799/3f67bfb0-bf5c-4aaf-9dac-9acb1a14cf3a"
-          (reference "TP2") (unit 1)
+          (reference "2TP2") (unit 1)
         )
         (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/a0268632-eb9a-430e-97ab-e20adbf6cd41/3f67bfb0-bf5c-4aaf-9dac-9acb1a14cf3a"
-          (reference "TP2") (unit 1)
+          (reference "1TP2") (unit 1)
         )
         (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/1e802adc-784c-4bfc-ac56-2ca34eafc640/3f67bfb0-bf5c-4aaf-9dac-9acb1a14cf3a"
-          (reference "TP2") (unit 1)
+          (reference "3TP2") (unit 1)
         )
         (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/fca8234f-eea0-4615-81d1-2ac2d4337d1e/3f67bfb0-bf5c-4aaf-9dac-9acb1a14cf3a"
-          (reference "TP2") (unit 1)
+          (reference "4TP2") (unit 1)
         )
       )
     )
