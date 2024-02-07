@@ -709,7 +709,7 @@
     (property "Value" "LT1169CS8-PBF" (at 138.43 92.71 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Footprint" "footprints:SOIC127P599X175-8N" (at 118.11 100.33 0)
+    (property "Footprint" "footprints:LT-SOIC127P599X175-8N" (at 118.11 100.33 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "LT1169CS8-PBF" (at 118.11 100.33 0)
