@@ -6,4 +6,5 @@
   (lib (name "symbols")(type "KiCad")(uri "${KIPRJMOD}/symbols.kicad_sym")(options "")(descr ""))
   (lib (name "1727230")(type "KiCad")(uri "${KIPRJMOD}/Parts/symbols/1727230/1727230.kicad_sym")(options "")(descr ""))
   (lib (name "1844236")(type "KiCad")(uri "${KIPRJMOD}/Parts/symbols/1844236/1844236.kicad_sym")(options "")(descr ""))
+  (lib (name "MJ_3523_SMT_TR")(type "KiCad")(uri "${KIPRJMOD}/Parts/symbols/MJ_3523_SMT_TR/MJ_3523_SMT_TR.kicad_sym")(options "")(descr ""))
 )

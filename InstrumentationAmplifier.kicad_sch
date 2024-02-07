@@ -342,6 +342,9 @@
         (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/1e802adc-784c-4bfc-ac56-2ca34eafc640/bcbf3922-6d95-4131-9e90-9856243d7ce3"
           (reference "R5") (unit 1)
         )
+        (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/fca8234f-eea0-4615-81d1-2ac2d4337d1e/bcbf3922-6d95-4131-9e90-9856243d7ce3"
+          (reference "R5") (unit 1)
+        )
       )
     )
   )
@@ -386,6 +389,9 @@
           (reference "TP1") (unit 1)
         )
         (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/1e802adc-784c-4bfc-ac56-2ca34eafc640/bcbf3922-6d95-4131-9e90-9856243d7ce3"
+          (reference "TP1") (unit 1)
+        )
+        (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/fca8234f-eea0-4615-81d1-2ac2d4337d1e/bcbf3922-6d95-4131-9e90-9856243d7ce3"
           (reference "TP1") (unit 1)
         )
       )
