@@ -179,11 +179,11 @@
         )
       )
     )
-    (symbol "power:GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (symbol "power:GNDA" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -6.35 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Value" "GND" (at 0 -3.81 0)
+      (property "Value" "GNDA" (at 0 -3.81 0)
         (effects (font (size 1.27 1.27)))
       )
       (property "Footprint" "" (at 0 0 0)
@@ -195,10 +195,10 @@
       (property "ki_keywords" "global power" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "Power symbol creates a global label with name \"GND\" , ground" (at 0 0 0)
+      (property "ki_description" "Power symbol creates a global label with name \"GNDA\" , analog ground" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "GND_0_1"
+      (symbol "GNDA_0_1"
         (polyline
           (pts
             (xy 0 0)
@@ -212,9 +212,9 @@
           (fill (type none))
         )
       )
-      (symbol "GND_1_1"
+      (symbol "GNDA_1_1"
         (pin power_in line (at 0 0 270) (length 0) hide
-          (name "GND" (effects (font (size 1.27 1.27))))
+          (name "GNDA" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
       )
@@ -554,40 +554,6 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 254 80.01 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 273f4e44-0d3f-4976-9ea5-1cc806bbbd37)
-    (property "Reference" "#PWR0103" (at 254 86.36 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 254 85.09 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 254 80.01 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 254 80.01 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid b385ea2f-ffea-45cd-beec-b507f95feed4))
-    (instances
-      (project "TR_EMG"
-        (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/e619882c-69e2-4357-9513-12f0ec23e799/2f0a58c0-1c44-4e98-afee-bedece3a8259"
-          (reference "#PWR0103") (unit 1)
-        )
-        (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/a0268632-eb9a-430e-97ab-e20adbf6cd41/2f0a58c0-1c44-4e98-afee-bedece3a8259"
-          (reference "#PWR02") (unit 1)
-        )
-        (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/1e802adc-784c-4bfc-ac56-2ca34eafc640/2f0a58c0-1c44-4e98-afee-bedece3a8259"
-          (reference "#PWR0106") (unit 1)
-        )
-        (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/fca8234f-eea0-4615-81d1-2ac2d4337d1e/2f0a58c0-1c44-4e98-afee-bedece3a8259"
-          (reference "#PWR0109") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Device:C") (at 124.46 88.9 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 38928557-8e4b-4dfa-9aa9-8e9ad0ffcfd4)
@@ -618,6 +584,40 @@
         )
         (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/fca8234f-eea0-4615-81d1-2ac2d4337d1e/2f0a58c0-1c44-4e98-afee-bedece3a8259"
           (reference "C405") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GNDA") (at 254 80.01 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 533ba37f-9502-4f71-a3da-02cc7e261002)
+    (property "Reference" "#PWR02" (at 254 86.36 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GNDA" (at 254 85.09 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 254 80.01 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 254 80.01 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid c4de40ca-d49d-4531-8db6-840490104171))
+    (instances
+      (project "TR_EMG"
+        (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/a0268632-eb9a-430e-97ab-e20adbf6cd41/2f0a58c0-1c44-4e98-afee-bedece3a8259"
+          (reference "#PWR02") (unit 1)
+        )
+        (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/e619882c-69e2-4357-9513-12f0ec23e799/2f0a58c0-1c44-4e98-afee-bedece3a8259"
+          (reference "#PWR011") (unit 1)
+        )
+        (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/1e802adc-784c-4bfc-ac56-2ca34eafc640/2f0a58c0-1c44-4e98-afee-bedece3a8259"
+          (reference "#PWR012") (unit 1)
+        )
+        (path "/c6167f6f-8a8c-40a1-9c06-7f0e8ea44639/fca8234f-eea0-4615-81d1-2ac2d4337d1e/2f0a58c0-1c44-4e98-afee-bedece3a8259"
+          (reference "#PWR013") (unit 1)
         )
       )
     )
