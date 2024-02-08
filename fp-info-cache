@@ -1,4 +1,4 @@
-22648356754404688
+22650066827928230
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -93037,6 +93037,13 @@ Varistor VF
 2
 2
 footprints
+ADS-SOP50P490X110-10N
+
+
+0
+10
+10
+footprints
 CONN_1727230_PXC
 
 1727230 
@@ -93058,19 +93065,19 @@ MJ-3523-SMT-TR
 3
 3
 footprints
-SOIC127P599X175-8N
+INA-SOIC127P1030X265-16N
 
 
 0
-8
-8
+16
+16
 footprints
-SOIC127P1030X265-16N
+LT-SOIC127P599X175-8N
 
 
 0
-16
-16
+8
+8
 footprints
 TP_5012
 
