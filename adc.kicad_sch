@@ -323,7 +323,7 @@
     (property "Value" "ADS1115IDGSR" (at 129.54 66.04 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "ADS1115IDGSR:SOP50P490X110-10N" (at 129.54 86.36 0)
+    (property "Footprint" "footprints:ADS-SOP50P490X110-10N" (at 129.54 86.36 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
     (property "Datasheet" "" (at 129.54 86.36 0)
