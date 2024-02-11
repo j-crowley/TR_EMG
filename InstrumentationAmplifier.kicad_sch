@@ -333,6 +333,9 @@
     (property "Datasheet" "~" (at 107.95 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C705888" (at 107.95 80.01 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "2" (uuid 76e0a815-ae05-4491-94a2-20fd971f34f0))
     (pin "1" (uuid d9937803-69dc-45df-aa72-5abe06a65a18))
     (instances
@@ -383,6 +386,9 @@
     (property "STANDARD" "Manufacturer Recommendations" (at 163.83 67.31 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
+    (property "LCSC" "C238122" (at 163.83 67.31 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "TP" (uuid 0aeb4460-8b6e-417c-af5b-bc9cd2ac4d4f))
     (instances
       (project "TR_EMG"
@@ -415,6 +421,9 @@
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
     (property "Datasheet" "" (at 137.16 82.55 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "" (at 137.16 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "8" (uuid a437d415-6480-47ca-846f-dbef2d8beb23))
